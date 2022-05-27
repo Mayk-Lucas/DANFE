@@ -1,0 +1,683 @@
+@media only screen and (max-device-width: 900px){}
+
+* {
+    margin: 0px;
+}
+
+/* Div Principal */
+.DANFE {
+    width: 917px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+/* Cabeçalho */
+.titulo {
+    width: 682px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.dataReferencia {
+    width: 122px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.assinatura {
+    width: 534px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.identificacao {
+    width: 180px;
+    height: 61px;
+    border-radius: 6px;
+}
+
+.logoEmpresa {
+    width: 320px;
+    height: 129px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.selecao {
+    width: 9px;
+    height: 14px;
+    border-radius: 6px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+.codigoBarra {
+    width: 400px;
+    height: 56px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.chaveAcesso {
+    width: 400px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+.consulta {
+    width: 400px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+.natOperacao {
+    width: 462px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+    margin-top: -2px;
+}
+
+.dadosNFe {
+    width: 400px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+.inscricaoEstadual {
+    width: 284px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.inscEstadualSusbstTributario {
+    width: 220px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.cnpj {
+    width: 332px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+/* Destinatário e Remetente */
+.nome {
+    width: 558px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.cpf {
+    width: 140px;
+    height: 22px;
+    border-radius: 6px;
+}
+
+.dataEmissao {
+    width: 132px;
+    height: 22px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+.endereco {
+    width: 450px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.bairro {
+    width: 154px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.cep {
+    width: 68px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+.dataSaida {
+    width: 132px;
+    height: 22px;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.municipio {
+    width: 232px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.fone {
+    width: 134px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.uf {
+    width: 60px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.inscricaoEstadualDestinatario {
+    width: 220px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.horaSaida {
+    width: 132px;
+    height: 22px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+/* Fatura */
+.fatura {
+    height: 20px;
+    border-radius: 6px;
+}
+
+/* Cálculo do Imposto */
+.baseCalculo {
+    width: 180px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.valorICMS {
+    width: 120px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.BCICMS {
+    width: 150px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.valorSubstituicao {
+    width: 160px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.valorProduto {
+    width: 175px;
+    height: 22px;
+    border-radius: 6px;
+}
+
+.valorFrete {
+    width: 140px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.valorSeguro {
+    width: 100px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.desconto {
+    width: 100px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.outrasDespesas {
+    width: 130px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.valorIPI {
+    width: 114px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.valorNota {
+    width: 175px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+/* Transportador e Volumes ransportados */
+.razaoSocial {
+    width: 380px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.frete {
+    width: 74px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.codigoANTT {
+    width: 64px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.placaVeiculo {
+    width: 77px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.ufTransportadorVeiculo {
+    width: 24px;
+    height: 22px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.cpfTransportador {
+    width: 140px;
+    height: 22px;
+    border-radius: 6px;
+}
+
+.enderecoTransportador {
+    width: 380px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.municipioTranspotador {
+    width: 236px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.ufTransportador {
+    width: 20px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.inscricaoEstadualTransportador {
+    width: 175px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+.quantidade {
+    width: 104px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.especie {
+    width: 120px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.marca {
+    width: 104px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.numeracao {
+    width: 110px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.pesoBruto {
+    width: 146px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+    border-right: 0px;
+}
+
+.pesoLiquido {
+    width: 175px;
+    height: 22px;
+    border-radius: 6px;
+    margin-top: -2px;
+}
+
+/* Dados do Produto e Serviços */
+.tabela {
+    width: 890px;
+    height: 400px;
+    border-radius: 6px;
+    margin-top: -31px;
+}
+
+.linha-vertical {
+    float: left;
+    height: 416px;
+    border-left: 2px solid;
+    margin-top: -6px;
+    color: dimgrey;
+}
+
+.linha-horizontal {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 13px;
+}
+
+.codProduto {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 9px;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.descricao {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.NCM_Unitario {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.CST {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.CFOP_UNID {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.QTD {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.Total_ICMS {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.IPI {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.ALIQ {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.ALIQ_IPI {
+    float: left;
+    font-size: 8.5px;
+    margin-top: -4px;
+    margin-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+/* Cálculo do ISSQN */
+.inscricaoMunicipal {
+    width: 111px;
+    height: 20px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.valorServico {
+    width: 192px;
+    height: 20px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.baseISSQN {
+    width: 254px;
+    height: 20px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.valorISSQN {
+    width: 254px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+/* Dados Adicionais */
+.observacao {
+    width: 432px;
+    height: 120px;
+    border-radius: 6px;
+    border-right: 0px;
+}
+
+.reservadoFisco {
+    width: 431px;
+    height: 120px;
+    border-radius: 6px;
+}
+
+/* Organizando os titulos de cada coluna. */
+.nomeTitulo {
+    font-size: 8px;
+    margin-top: -4px;
+    margin-left: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.nomeTituloCentro {
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nomeTituloDanfe {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.documentoAuxiliar {
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.entrada {
+    font-size: 12px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+.saida {
+    font-size: 12px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.numeroNFeDanfe {
+    font-size: 16px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.autenticidade {
+    font-size: 10px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.numeroNFe {
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.colunaDANFE {
+    width: 140px;
+    height: 147px;
+    float: left;
+    margin-top: 6px;
+
+}
+
+.titulos {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DANFE</title>
+</head>
+<body>
+    <div class="DANFE">
+        <!-- Cabeçalho -->
+        <div style="float: left;">
+            <fieldset class="titulo"></fieldset>
+            <div style="float: left;">
+                <fieldset class="dataReferencia">
+                    <p class="nomeTitulo">DATA DE REFERÊNCIA</p>
+                </fieldset>
+            </div>
+            <fieldset class="assinatura">
+                <p class="nomeTitulo">IDENTIFICAÇÃO E ASSINATURA DO RECEBEDOR</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="identificacao">
+                <p class="nomeTituloCentro">NF-e</p>
+                <p class="numeroNFe">N°</p>
+                <p class="nomeTituloCentro">SÉRIE</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="logoEmpresa"></fieldset>
+        </div>
+        <div class="colunaDANFE">
+            <p class="nomeTituloDanfe">DANFE</p>
+            <p class="documentoAuxiliar">Documento Auxiliar da</p>
+            <p class="documentoAuxiliar">Nota Fiscal Eletrônica</p>
+            <div style="float: left;">
+                <p class="entrada">0 - ENTRADA</p>
+                <p class="saida">1 - SAÍDA</p>
+            </div>
+            <div style="float: left;">
+                <fieldset class="selecao"></fieldset>
+            </div>
+            <p class="numeroNFeDanfe">N°</p>
+            <p class="entrada" style="margin-bottom: 2px;">SÉRIE</p>
+            <p class="saida">FOLHA</p>
+        </div>
+        <fieldset class="codigoBarra"></fieldset>
+        <fieldset class="chaveAcesso">
+            <p class="nomeTitulo">CHAVE DE ACESSO</p>
+        </fieldset>
+        <fieldset class="consulta">
+            <p class="autenticidade">Consulta de autenticidade no portal nacional da NF-e</p>
+            <p class="autenticidade">www.nfe.fazenda.gov.br ou no site da Sefaz Autorizadora</p>
+        </fieldset>
+        <div style="float: left;">
+            <fieldset class="natOperacao">
+                <p class="nomeTitulo">NAT. OPERACÃO</p>
+            </fieldset>
+        </div>
+        <fieldset class="dadosNFe">
+            <p class="nomeTitulo">DADOS DA NFe</p>
+        </fieldset>
+        <div style="float: left;">
+            <fieldset class="inscricaoEstadual">
+                <p class="nomeTitulo">INSCRIÇÃO ESTADUAL</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="inscEstadualSusbstTributario">
+                <p class="nomeTitulo">INSC. ESTADUAL DO SUBST. TRIBUTÁRIO</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="cnpj">
+                <p class="nomeTitulo">CNPJ</p>
+            </fieldset>
+        </div>
+
+        <!-- Destinatário e Remetente -->
+        <p class="titulos">DESTINATÁRIO / REMENTENTE</p>
+
+        <div style="float: left;">
+            <fieldset class="nome">
+                <p class="nomeTitulo">NOME / RAZÃO SOCIAL</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="cpf">
+                <p class="nomeTitulo">CNPJ / CPF</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="dataEmissao">
+                <p class="nomeTitulo">DATA DA EMISSÃO</p>
+            </fieldset>
+        </div>
+
+        <div style="float: left;">
+            <fieldset class="endereco">
+                <p class="nomeTitulo">ENDEREÇO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="bairro">
+                <p class="nomeTitulo">BAIRRO / DISTRITO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="cep">
+                <p class="nomeTitulo">CEP</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="dataSaida">
+                <p class="nomeTitulo">DATA DE SAÍDA / ENTRADA</p>
+            </fieldset>
+        </div>
+
+        <div style="float: left;">
+            <fieldset class="municipio">
+                <p class="nomeTitulo">MUNICÍPIO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="fone">
+                <p class="nomeTitulo">FONE / FAX</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="uf">
+                <p class="nomeTitulo">UF</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="inscricaoEstadualDestinatario">
+                <p class="nomeTitulo">INSCRIÇÃO ESTADUAL</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="horaSaida">
+                <p class="nomeTitulo">HORA DE SAÍDA</p>
+            </fieldset>
+        </div>
+
+        <!-- Fatura -->
+        <p class="titulos">FATURA</p>
+
+        <div style="float: none;">
+            <fieldset class="fatura"></fieldset>
+        </div>
+
+        <!-- Cálculo do Imposto -->
+        <p class="titulos">CÁLCULO DO IMPOSTO</p>
+
+        <div style="float: left;">
+            <fieldset class="baseCalculo">
+                <p class="nomeTitulo">BASE DE CÁLCULO DO ICMS</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="valorICMS">
+                <p class="nomeTitulo">VALOR DO ICMS</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="BCICMS">
+                <p class="nomeTitulo">BC. DO ICMS SUBSTITUIÇÃO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="valorSubstituicao">
+                <p class="nomeTitulo">VALOR DO ICMS SUBSTITUIÇÃO</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="valorProduto">
+                <p class="nomeTitulo">VALOR TOTAL DOS PRODUTOS</p>
+            </fieldset>
+        </div>
+
+        <div style="float: left;">
+            <fieldset class="valorFrete">
+                <p class="nomeTitulo">VALOR DO FRETE</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="valorSeguro">
+                <p class="nomeTitulo">VALOR DO SEGURO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="desconto">
+                <p class="nomeTitulo">DESCONTO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="outrasDespesas">
+                <p class="nomeTitulo">OUTRAS DESPESAS ACESSÓRIAS</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="valorIPI">
+                <p class="nomeTitulo">VALOR DO IPI</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="valorNota">
+                <p class="nomeTitulo">VALOR TOTAL DA NOTA</p>
+            </fieldset>
+        </div>
+
+        <!-- Transportador e Volumes ransportados -->
+        <p class="titulos">TRANSPORTADOR / VOLUMES TRANSPORTADOS</p>
+
+        <div style="float: left;">
+            <fieldset class="razaoSocial">
+                <p class="nomeTitulo">RAZÃO SOCIAL</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="frete">
+                <p class="nomeTitulo">FRETE POR CONTA</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="codigoANTT">
+                <p class="nomeTitulo">CÓDIGO ANTT</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="placaVeiculo">
+                <p class="nomeTitulo">PLACA DO VEÍCULO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="ufTransportadorVeiculo">
+                <p class="nomeTitulo">UF</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="cpfTransportador">
+                <p class="nomeTitulo">CNPJ / CPF</p>
+            </fieldset>
+        </div>
+
+        <div style="float: left;">
+            <fieldset class="enderecoTransportador">
+                <p class="nomeTitulo">ENDEREÇO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="municipioTranspotador">
+                <p class="nomeTitulo">MUNICÍPIO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="ufTransportador">
+                <p class="nomeTitulo">UF</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="inscricaoEstadualTransportador">
+                <p class="nomeTitulo">INSCRIÇÃO ESTADUAL</p>
+            </fieldset>
+        </div>
+
+        <div style="float: left;">
+            <fieldset class="quantidade">
+                <p class="nomeTitulo">QUANTIDADE</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="especie">
+                <p class="nomeTitulo">ESPÉCIE</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="marca">
+                <p class="nomeTitulo">MARCA</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="numeracao">
+                <p class="nomeTitulo">NUMERAÇÃO</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="pesoBruto">
+                <p class="nomeTitulo">PESO BRUTO</p>
+            </fieldset>
+        </div>
+        <div style="float: left; margin-bottom: 4px;">
+            <fieldset class="pesoLiquido">
+                <p class="nomeTitulo">PESO LÍQUIDO</p>
+            </fieldset>
+        </div>
+
+        <!-- Dados do Produto e Serviços -->
+        <p class="titulos">DADOS DO PRODUTO / SERVIÇOS</p>
+
+        <fieldset class="linha-horizontal"></fieldset>
+        <fieldset class="tabela">
+            <p class="codProduto">CÓD.PROUTO</p>
+            <div class="linha-vertical"></div>
+
+            <p class="descricao">DESCRIÇÃO DO PRODUTO / SERVIÇOS</p>
+            <div class="linha-vertical"></div>
+
+            <p class="NCM_Unitario">NCM / SH</p>
+            <div class="linha-vertical"></div>
+
+            <p class="CST">CST</p>
+            <div class="linha-vertical"></div>
+
+            <p class="CFOP_UNID">CFOP</p>
+            <div class="linha-vertical"></div>
+
+            <p class="CFOP_UNID">UNID</p>
+            <div class="linha-vertical"></div>
+
+            <p class="QTD">QTD</p>
+            <div class="linha-vertical"></div>
+
+            <p class="NCM_Unitario">V. UNITÁRIO</p>
+            <div class="linha-vertical"></div>
+
+            <p class="Total_ICMS">V. TOTAL</p>
+            <div class="linha-vertical"></div>
+
+            <p class="Total_ICMS">BC. DO ICMS</p>
+            <div class="linha-vertical"></div>
+
+            <p class="Total_ICMS">V. ICMS</p>
+            <div class="linha-vertical"></div>
+
+            <p class="IPI">V. IPI</p>
+            <div class="linha-vertical"></div>
+
+            <p class="ALIQ">ALIQ. ICMS</p>
+            <div class="linha-vertical"></div>
+
+            <p class="ALIQ_IPI">ALIQ. IPI</p>
+        </fieldset>
+
+        <!-- Cálculo do ISSQN -->
+        <p class="titulos">CÁLCULO DO ISSQN</p>
+
+        <div style="float: left;">
+            <fieldset class="inscricaoMunicipal">
+                <p class="nomeTitulo">INSCRIÇÃO MUNICIPAL</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="valorServico">
+                <p class="nomeTitulo">VALOR TOTAL DOS SERVIÇOS</p>
+            </fieldset>
+        </div>
+        <div style="float: left;">
+            <fieldset class="baseISSQN">
+                <p class="nomeTitulo">BASE DE CÁLCULO ISSQN</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="valorISSQN">
+                <p class="nomeTitulo">VALOR DO ISSQN</p>
+            </fieldset>
+        </div>
+
+        <!-- Dados Adicionais -->
+        <p class="titulos">DADOS ADICIONAIS</p>
+
+        <div style="float: left;">
+            <fieldset class="observacao">
+                <p class="nomeTitulo">INFORMAÇÕES COMPLEMENTARES</p>
+            </fieldset>
+        </div>
+        <div style="float: none;">
+            <fieldset class="reservadoFisco">
+                <p class="nomeTitulo">RESERVADO AO FISCO</p>
+            </fieldset>
+        </div>
+
+    </div>
+</body>
+</html>
