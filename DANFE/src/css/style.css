@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 900px){}
+@media only screen and (max-device-width: 900px) {}
 
 * {
     margin: 0px;
@@ -417,163 +417,104 @@
 }
 
 /* Dados do Produto e Serviços */
-.tabela {
-    width: 890px;
+.grid {
+    display: grid;
+    border: 1px solid;
+    border-color: gray;
+    grid-template-columns: repeat(14, 0fr);
+    width: 915px;
     height: 400px;
     border-radius: 6px;
-    margin-top: -31px;
 }
 
-.linha-vertical {
-    float: left;
-    height: 416px;
-    border-left: 2px solid;
-    margin-top: -6px;
-    color: dimgrey;
+.textoFonte {
+    font-size: 8.5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+    margin-top: 2px;
 }
 
-.linha-horizontal {
+.linha-horizontau {
     border-left: none;
     border-right: none;
     border-bottom: none;
-    margin-top: 13px;
+    margin-top: 2px;
 }
 
 .codProduto {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 9px;
-    margin-right: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+    border: 1px solid;
+    border-color: gray;
+    width: 99px;
+    height: 400px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .descricao {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 14px;
-    margin-right: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+    border: 1px solid;
+    border-color: gray;
+    width: 190px;
+    height: 400px;
 }
 
-.NCM_Unitario {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 8px;
-    margin-right: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+.NCM {
+    border: 1px solid;
+    border-color: gray;
+    width: 56px;
+    height: 400px;
 }
 
 .CST {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+    border: 1px solid;
+    border-color: gray;
+    width: 26px;
+    height: 400px;
 }
 
 .CFOP_UNID {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 4px;
-    margin-right: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+    border: 1px solid;
+    border-color: gray;
+    width: 30px;
+    height: 400px;
 }
 
-.QTD {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 24px;
-    margin-right: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+.QTD_UNITARIO {
+    border: 1px solid;
+    border-color: gray;
+    width: 64px;
+    height: 400px;
 }
 
-.Total_ICMS {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
+.total {
+    border: 1px solid;
+    border-color: gray;
+    width: 58px;
+    height: 400px;
+}
+
+.ICMS {
+    border: 1px solid;
+    border-color: gray;
+    width: 70px;
+    height: 400px;
+}
+
+.ICMS_IPI {
+    border: 1px solid;
+    border-color: gray;
+    width: 50px;
+    height: 400px;
 }
 
 .IPI {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 16px;
-    margin-right: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
-}
-
-.ALIQ {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
-}
-
-.ALIQ_IPI {
-    float: left;
-    font-size: 8.5px;
-    margin-top: -4px;
-    margin-left: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: dimgray;
-}
-
-/* Cálculo do ISSQN */
-.inscricaoMunicipal {
-    width: 111px;
-    height: 20px;
-    border-radius: 6px;
-    border-right: 0px;
-}
-
-.valorServico {
-    width: 192px;
-    height: 20px;
-    border-radius: 6px;
-    border-right: 0px;
-}
-
-.baseISSQN {
-    width: 254px;
-    height: 20px;
-    border-radius: 6px;
-    border-right: 0px;
-}
-
-.valorISSQN {
-    width: 254px;
-    height: 20px;
-    border-radius: 6px;
+    border: 1px solid;
+    border-color: gray;
+    width: 50px;
+    height: 400px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 /* Dados Adicionais */
@@ -680,4 +621,9 @@
     margin-top: 4px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+input {
+    border: 0 none;
+    outline: 0;
 }

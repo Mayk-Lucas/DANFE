@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>DANFE</title>
 </head>
+
 <body>
     <div class="DANFE">
         <!-- Cabeçalho -->
@@ -39,7 +41,9 @@
                 <p class="saida">1 - SAÍDA</p>
             </div>
             <div style="float: left;">
-                <fieldset class="selecao"></fieldset>
+                <fieldset class="selecao">
+                    <input type="text" id="selecao" value="1" style="width: 10px;">
+                </fieldset>
             </div>
             <p class="numeroNFeDanfe">N°</p>
             <p class="entrada" style="margin-bottom: 2px;">SÉRIE</p>
@@ -83,11 +87,13 @@
         <div style="float: left;">
             <fieldset class="nome">
                 <p class="nomeTitulo">NOME / RAZÃO SOCIAL</p>
+                <input type="text" id="nome" value="João Albertoni Silva">
             </fieldset>
         </div>
         <div style="float: left;">
             <fieldset class="cpf">
                 <p class="nomeTitulo">CNPJ / CPF</p>
+                <input type="text" id="cnpjCpf" value="000.000.000-00" style="width: 100px;">
             </fieldset>
         </div>
         <div style="float: left;">
@@ -99,16 +105,19 @@
         <div style="float: left;">
             <fieldset class="endereco">
                 <p class="nomeTitulo">ENDEREÇO</p>
+                <input type="text" id="endereco" value="Av. XXIII">
             </fieldset>
         </div>
         <div style="float: left;">
             <fieldset class="bairro">
                 <p class="nomeTitulo">BAIRRO / DISTRITO</p>
+                <input type="text" value="Jereissati III" style="width: 100px;">
             </fieldset>
         </div>
         <div style="float: left;">
             <fieldset class="cep">
                 <p class="nomeTitulo">CEP</p>
+                <input type="text" value="61814-276" style="width: 70px; margin-left: -6px;">
             </fieldset>
         </div>
         <div style="float: left;">
@@ -120,6 +129,7 @@
         <div style="float: left;">
             <fieldset class="municipio">
                 <p class="nomeTitulo">MUNICÍPIO</p>
+                <input type="text" value="Maracanaú" style="width: 100px;">
             </fieldset>
         </div>
         <div style="float: left;">
@@ -130,6 +140,7 @@
         <div style="float: left;">
             <fieldset class="uf">
                 <p class="nomeTitulo">UF</p>
+                <input type="text" value="CE" style="width: 30px;" readonly>
             </fieldset>
         </div>
         <div style="float: left;">
@@ -299,74 +310,81 @@
         <!-- Dados do Produto e Serviços -->
         <p class="titulos">DADOS DO PRODUTO / SERVIÇOS</p>
 
-        <fieldset class="linha-horizontal"></fieldset>
-        <fieldset class="tabela">
-            <p class="codProduto">CÓD.PROUTO</p>
-            <div class="linha-vertical"></div>
-
-            <p class="descricao">DESCRIÇÃO DO PRODUTO / SERVIÇOS</p>
-            <div class="linha-vertical"></div>
-
-            <p class="NCM_Unitario">NCM / SH</p>
-            <div class="linha-vertical"></div>
-
-            <p class="CST">CST</p>
-            <div class="linha-vertical"></div>
-
-            <p class="CFOP_UNID">CFOP</p>
-            <div class="linha-vertical"></div>
-
-            <p class="CFOP_UNID">UNID</p>
-            <div class="linha-vertical"></div>
-
-            <p class="QTD">QTD</p>
-            <div class="linha-vertical"></div>
-
-            <p class="NCM_Unitario">V. UNITÁRIO</p>
-            <div class="linha-vertical"></div>
-
-            <p class="Total_ICMS">V. TOTAL</p>
-            <div class="linha-vertical"></div>
-
-            <p class="Total_ICMS">BC. DO ICMS</p>
-            <div class="linha-vertical"></div>
-
-            <p class="Total_ICMS">V. ICMS</p>
-            <div class="linha-vertical"></div>
-
-            <p class="IPI">V. IPI</p>
-            <div class="linha-vertical"></div>
-
-            <p class="ALIQ">ALIQ. ICMS</p>
-            <div class="linha-vertical"></div>
-
-            <p class="ALIQ_IPI">ALIQ. IPI</p>
-        </fieldset>
-
-        <!-- Cálculo do ISSQN -->
-        <p class="titulos">CÁLCULO DO ISSQN</p>
-
-        <div style="float: left;">
-            <fieldset class="inscricaoMunicipal">
-                <p class="nomeTitulo">INSCRIÇÃO MUNICIPAL</p>
-            </fieldset>
+        <div class="grid">
+            <div class="codProduto">
+                <p class="textoFonte">CÓD.PROUTO</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: center;">010101</p>
+            </div>
+            <div class="descricao">
+                <p class="textoFonte">DESCRIÇÃO DO PRODUTO / SERVIÇOS</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; margin-left: 4px;">OCULOS EAN: 7898313720097</p>
+                <p style="font-size: 11px; margin-left: 4px;">MARCA: HP</p>
+                <p style="font-size: 11px; margin-left: 4px;">QDE 10 DE CX COM 1 LOTE: 0119</p>
+                <p style="font-size: 11px; margin-left: 4px;">PA FAB:24/01/2019 VAL: 13/12/2023 DESC:0.00%</p>
+            </div>
+            <div class="NCM">
+                <p class="textoFonte">NCM / SH</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: center;">90049090</p>
+            </div>
+            <div class="CST">
+                <p class="textoFonte">CST</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: center;">090</p>
+            </div>
+            <div class="CFOP_UNID">
+                <p class="textoFonte">CFOP</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: center;">5905</p>
+            </div>
+            <div class="CFOP_UNID">
+                <p class="textoFonte">UNID</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: center;">CX</p>
+            </div>
+            <div class="QTD_UNITARIO">
+                <p class="textoFonte">QTD</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">10,00</p>
+            </div>
+            <div class="QTD_UNITARIO">
+                <p class="textoFonte">V. UNITÁRIO</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">90,0000</p>
+            </div>
+            <div class="total">
+                <p class="textoFonte">V. TOTAL</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">900,00</p>
+            </div>
+            <div class="ICMS">
+                <p class="textoFonte">BC. DO ICMS</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">0,00</p>
+            </div>
+            <div class="ICMS_IPI">
+                <p class="textoFonte">V. ICMS</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">0,00</p>
+            </div>
+            <div class="ICMS_IPI">
+                <p class="textoFonte">V. IPI</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">0,00</p>
+            </div>
+            <div class="ICMS_IPI">
+                <p class="textoFonte">ALIQ. ICMS</p>
+                <fieldset class="linha-horizontau"></fieldset>
+                <p style="font-size: 11px; text-align: right; margin-right: 8px;">0</p>
+            </div>
+            <div class="IPI">
+                <p class="textoFonte">ALIQ. IPI</p>
+                <fieldset class="linha-horizontau"></fieldset>
+            </div>
         </div>
-        <div style="float: left;">
-            <fieldset class="valorServico">
-                <p class="nomeTitulo">VALOR TOTAL DOS SERVIÇOS</p>
-            </fieldset>
-        </div>
-        <div style="float: left;">
-            <fieldset class="baseISSQN">
-                <p class="nomeTitulo">BASE DE CÁLCULO ISSQN</p>
-            </fieldset>
-        </div>
-        <div style="float: none;">
-            <fieldset class="valorISSQN">
-                <p class="nomeTitulo">VALOR DO ISSQN</p>
-            </fieldset>
-        </div>
-
+        
         <!-- Dados Adicionais -->
         <p class="titulos">DADOS ADICIONAIS</p>
 
@@ -383,4 +401,5 @@
 
     </div>
 </body>
+
 </html>
